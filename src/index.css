@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+:root{
+    --Min-BackGround-Color: white ; 
+    --Min-Text-Color: cornflowerblue ; 
+    
+}
+
+body {
+    font-family: 'Alkatra', cursive;
+    /* background-color: var(--Min-BackGround-Color); */
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.offline{
+    height: 100vh;
+}
+
+.swiper  {
+    height: 100% ;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.swiper-slide{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.swiper-slide h1{
+    font-size: 5rem;
+    text-shadow: 3px 3px var(--Min-Text-Color);
+    
+    }
+    .swiper-slide p{
+    font-size: 1.5rem;
+    
+    }
+    .swiper-button-prev ,.swiper-button-next{
+        font-size: 4.5rem;
+        color: white;
+        left:20%;
+    }
+    .swiper-button-prev{
+        top: var(--swiper-navigation-top-offset,48%);
+    }
+    .swiper-button-prev:after{
+        content: '\25B3';
+    }
+    .swiper-button-next{
+        margin-top: 0px;
+    }
+    .swiper-button-next:after{
+        content: '\25BD';
+    }
+    

@@ -1,0 +1,19 @@
+.fStyle {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 888;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    background-color: black;
+}
+.fStyle a{
+    color: white;
+    font-size: 1.3rem;
+}
+.fStyle a:hover{
+    color: darkgray;
+}

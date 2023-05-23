@@ -1,0 +1,22 @@
+.AuthDiv{
+    background-image: url("../../image/man-silhouette-bicycle-sunset-4k_1540576069.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.AuthItems{
+    width: 40%;
+    margin-left: 10%;
+    overflow: hidden;
+}
+.AuthItemsOutlet{
+    background-color: rgba(255, 255, 255, 0.4);
+    border-top-left-radius: 10px;
+    border-top-Right-radius: 10px;
+    padding: 40px 10px;
+}
+.AuthItemsLink{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-bottom-left-radius: 10px;
+    border-bottom-Right-radius: 10px;
+    padding: 10px;
+}

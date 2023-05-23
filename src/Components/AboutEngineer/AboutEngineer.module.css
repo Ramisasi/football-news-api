@@ -1,0 +1,36 @@
+.AboutSection{
+    background-image: url('../../image/aboutEngineer.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.SkillName{
+    background-color:  rgb(158, 189, 247);
+    position: relative;
+    height: 15px;
+    margin-top: 0;
+    padding-top: 0;
+    border-radius:20px;
+}
+.SkillPercent{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  background-color: blue;
+  border-radius:20px 20px;
+}
+.SpanStyle{
+    font-size: 13px;
+}
+
+.backToHome{
+    position: fixed;
+    top:50%;
+    right: 0;
+    font-size: 3rem;
+}
+.backToHome > a{
+    color: white;
+}

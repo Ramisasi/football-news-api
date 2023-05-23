@@ -1,0 +1,20 @@
+.navbar{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: cornflowerblue;
+    transition: opacity 1s;
+    opacity: 0;
+    padding: 12px 0px;
+}
+.navLinkText{
+    color: white !important;
+}
+#LogOut{
+    cursor: pointer;
+}
+#LogOut:hover{
+    color: rgba(255, 0, 0, 0.5) !important;
+}

@@ -1,0 +1,76 @@
+
+.aboutTitle{
+    font-size: 3rem;
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+.AboutImage{
+    width: 80%;
+  text-align: center;
+  position: relative;
+}
+.AboutImage::before{
+content: " ";
+background-color: rgba(100, 148, 237, 0.5);
+position: absolute;
+top: -35px;
+left: -35px;
+width: 95%;
+height: 95%;
+z-index: -1;
+}
+.AboutImage::after{
+content: " ";
+background-color: rgba(100, 148, 237, 0.5);
+position: absolute;
+bottom: -35px;
+right: -35px;
+width: 95%;
+height: 95%;
+z-index: -1;
+}
+.AboutImage img{
+    width: 100%;
+    border: 8px solid white;
+    border-radius: 10px;
+    transition:transform 2s ;
+    position: relative;
+    z-index: 1;
+   }
+   
+.AboutImage:hover > img{
+    transform: scale(1.03);
+} 
+.imageLayout {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.imageLayoutAffect{
+    position: absolute;
+    top: -20%;
+    left: 140%;
+    width: 50%;
+    height: 130%;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 55;
+    display: inline-block;
+    transform: rotate(-30deg);
+    transition: 0.55s ;
+}
+.imageLayout:hover .imageLayoutAffect{
+    background-color: rgba(255, 255, 255, 0.8);
+    top: -10%;
+    left: -140%;
+}
+.aboutLink{
+    font-size: 1.2rem;
+    color: cornflowerblue;
+    }
+    .aboutLink:hover{
+    color: cornflowerblue;
+    }

@@ -1,0 +1,28 @@
+.home{
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.homeVi{
+    width: 100% ;
+    /* height: 100vh; */
+}
+.homeLayout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.301);
+    z-index: 15;
+}
+
+.home i{
+    position: absolute;
+    bottom: -30px;
+    left: 30px;
+    font-size: 30px;
+    color: rgb(172, 172, 172);
+    cursor:pointer
+}
